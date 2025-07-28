@@ -1,4 +1,4 @@
-# Connecting the Dots — Round 1A Submission
+# Connecting the Dots — Round 1A
 
 ## Challenge Objective
 
@@ -29,11 +29,17 @@ Our solution reads PDFs, extracts their structural elements, and outputs them as
 ## 📦 File Structure
 
 connecting-dots-round1a/
+
 ├── extract_headings.py # Main script
+
 ├── requirements.txt # Python dependency list
+
 ├── Dockerfile # Build file for containerized environment
+
 ├── README.md # You’re reading it
+
 ├── input/ # Input PDFs
+
 └── output/ # JSON output files
 
 ---
