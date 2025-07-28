@@ -1,0 +1,59 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.upload-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.upload-box label {
+  font-weight: bold;
+}
+
+input[type="file"] {
+  padding: 6px;
+}
+
+#adobe-dc-view {
+  border: 2px solid #000;
+  background-color: #000;
+  margin-bottom: 20px;
+}
+
+.result-box {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.result-box h2 {
+  margin-top: 0;
+  color: #34495e;
+}
+
+#jsonOutput {
+  white-space: pre-wrap;
+  font-family: Consolas, monospace;
+  font-size: 0.9rem;
+  color: #444;
+}
